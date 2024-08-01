@@ -1,0 +1,13 @@
+prefix=E:/PDFBOT/pdfbotenv/Library
+exec_prefix=E:/PDFBOT/pdfbotenv/Library
+libdir=E:/PDFBOT/pdfbotenv/Library/lib
+sharedlibdir=E:/PDFBOT/pdfbotenv/Library/lib
+includedir=E:/PDFBOT/pdfbotenv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
